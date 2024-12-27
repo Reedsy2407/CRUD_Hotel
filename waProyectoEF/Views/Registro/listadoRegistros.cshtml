@@ -1,0 +1,98 @@
+﻿@model IEnumerable<waProyectoEF.Models.Registro>
+
+@{
+    ViewBag.Title = "listadoRegistros";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Tablas</h1>
+        <div class="card mb-4">
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Listado Registros de Alquiler
+            </div>
+            <div class="card-body">
+                <table id="datatablesSimple">
+
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ide_alq)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.nom_cli)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.dni_cli)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.num_hab)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.pre_hab)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.fen_alq)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.fsa_alq)
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ide_alq)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.nom_cli)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.dni_cli)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.num_hab)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.pre_hab)
+                            </td>
+                            <td>
+                                @item.fen_alq.ToShortDateString()
+                            </td>
+                            <td>
+                                @item.fsa_alq.ToShortDateString()
+                            </td>
+                            <td>
+                                @Html.ActionLink("Modificar", "actualizaRegistro", new { id = item.ide_alq }) |
+                                <a href="javascript:void(0);" onclick="confirmarEliminacion('@Url.Action("eliminaRegistro", new { id = item.ide_alq })')">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    function confirmarEliminacion(url) {
+        Swal.fire({
+            title: '¿Estás seguro?',
+            text: "¡No podrás revertir esto!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sí, eliminarlo!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = url;
+            }
+        })
+    }
+</script>

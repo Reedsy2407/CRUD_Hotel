@@ -1,0 +1,82 @@
+﻿@model waProyectoEF.Models.RegistroO
+
+@{
+    ViewBag.Title = "nuevoRegistro";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+}
+
+<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Registrar Nuevo Alquiler</h3></div>
+                    <div class="card-body">
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+
+                        <div class="row mb-3">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.TextBoxFor(model => model.ide_alq, new { @class = "form-control", @readonly = "readonly", @Value = ViewBag.SiguienteCodigo })
+                                    @Html.ValidationMessageFor(model => model.ide_alq, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Código de Alquiler</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.DropDownListFor(model => model.ide_cli, (SelectList)ViewBag.clientes, new { @class = "form-select" })
+                                    @Html.ValidationMessageFor(model => model.ide_cli, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Cliente</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.DropDownListFor(model => model.ide_hab, (SelectList)ViewBag.habitaciones, new { @class = "form-select" })
+                                    @Html.ValidationMessageFor(model => model.ide_hab, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Habitación</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.TextBoxFor(model => model.fen_alq, new { @class = "form-control", @type = "date" })
+                                    @Html.ValidationMessageFor(model => model.fen_alq, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Fecha Entrada</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.TextBoxFor(model => model.fsa_alq, new { @class = "form-control", @type = "date" })
+                                    @Html.ValidationMessageFor(model => model.fsa_alq, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Fecha Salida</label>
+                                </div>
+                            </div>
+                        </div>
+
+                                <div class="form-group">
+                                    <div class="mt-4 mb-0">
+                                        <div class="d-grid">
+                                            <input type="submit" value="Registrar" class="btn btn-primary btn-block" />
+                                        </div>
+                                    </div>
+                                </div>
+                                }
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</main>

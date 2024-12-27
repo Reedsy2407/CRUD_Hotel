@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|c:\\users\\uset\\desktop\\proyecto hotel asturia\\waproyectoef\\waproyectoef\\views\\shared\\_layoutprincipal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\views\\shared\\_layoutprincipal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\controllers\\habitacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\controllers\\habitacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\views\\cliente\\listadoclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\views\\cliente\\listadoclientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\views\\habitacion\\listadohabitaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\views\\habitacion\\listadohabitaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\views\\habitacion\\nuevahabitacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\views\\habitacion\\nuevahabitacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\views\\registro\\listadoregistros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\views\\registro\\listadoregistros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\views\\registro\\nuevoregistro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\views\\registro\\nuevoregistro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\models\\habitaciono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\models\\habitaciono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waproyectoef\\models\\clienteo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44A85D4-69B5-4E84-BDA1-C0A8252E2ECB}|waProyectoEF\\waProyectoEF.csproj|solutionrelative:waproyectoef\\models\\clienteo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "waProyectoEF\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "waProyectoEF\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAUwLYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:22:55.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HabitacionController.cs",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Controllers\\HabitacionController.cs",
+              "RelativeDocumentMoniker": "waProyectoEF\\Controllers\\HabitacionController.cs",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Controllers\\HabitacionController.cs",
+              "RelativeToolTip": "waProyectoEF\\Controllers\\HabitacionController.cs",
+              "ViewState": "AQIAANwAAAAAAAAAAAAAAPUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T03:38:41.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "listadoClientes.cshtml",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Cliente\\listadoClientes.cshtml",
+              "RelativeDocumentMoniker": "waProyectoEF\\Views\\Cliente\\listadoClientes.cshtml",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Cliente\\listadoClientes.cshtml",
+              "RelativeToolTip": "waProyectoEF\\Views\\Cliente\\listadoClientes.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAUwEUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T04:20:55.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "listadoHabitaciones.cshtml",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Habitacion\\listadoHabitaciones.cshtml",
+              "RelativeDocumentMoniker": "waProyectoEF\\Views\\Habitacion\\listadoHabitaciones.cshtml",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Habitacion\\listadoHabitaciones.cshtml",
+              "RelativeToolTip": "waProyectoEF\\Views\\Habitacion\\listadoHabitaciones.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T04:20:54.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "listadoRegistros.cshtml",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Registro\\listadoRegistros.cshtml",
+              "RelativeDocumentMoniker": "waProyectoEF\\Views\\Registro\\listadoRegistros.cshtml",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Registro\\listadoRegistros.cshtml",
+              "RelativeToolTip": "waProyectoEF\\Views\\Registro\\listadoRegistros.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T04:20:50.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "nuevaHabitacion.cshtml",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Habitacion\\nuevaHabitacion.cshtml",
+              "RelativeDocumentMoniker": "waProyectoEF\\Views\\Habitacion\\nuevaHabitacion.cshtml",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Habitacion\\nuevaHabitacion.cshtml",
+              "RelativeToolTip": "waProyectoEF\\Views\\Habitacion\\nuevaHabitacion.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T03:18:05.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "waProyectoEF\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "waProyectoEF\\Controllers\\RegistroController.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAYwJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T04:11:36.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutPrincipal.cshtml",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Shared\\_LayoutPrincipal.cshtml",
+              "RelativeDocumentMoniker": "waProyectoEF\\Views\\Shared\\_LayoutPrincipal.cshtml",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Shared\\_LayoutPrincipal.cshtml",
+              "RelativeToolTip": "waProyectoEF\\Views\\Shared\\_LayoutPrincipal.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAD4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T03:55:54.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "nuevoRegistro.cshtml",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Registro\\nuevoRegistro.cshtml",
+              "RelativeDocumentMoniker": "waProyectoEF\\Views\\Registro\\nuevoRegistro.cshtml",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Views\\Registro\\nuevoRegistro.cshtml",
+              "RelativeToolTip": "waProyectoEF\\Views\\Registro\\nuevoRegistro.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T04:11:42.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HabitacionO.cs",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Models\\HabitacionO.cs",
+              "RelativeDocumentMoniker": "waProyectoEF\\Models\\HabitacionO.cs",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Models\\HabitacionO.cs",
+              "RelativeToolTip": "waProyectoEF\\Models\\HabitacionO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBsAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T02:34:50.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteO.cs",
+              "DocumentMoniker": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Models\\ClienteO.cs",
+              "RelativeDocumentMoniker": "waProyectoEF\\Models\\ClienteO.cs",
+              "ToolTip": "C:\\Users\\uset\\Desktop\\Proyecto Hotel Asturia\\waProyectoEF\\waProyectoEF\\Models\\ClienteO.cs",
+              "RelativeToolTip": "waProyectoEF\\Models\\ClienteO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T01:00:35.743Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

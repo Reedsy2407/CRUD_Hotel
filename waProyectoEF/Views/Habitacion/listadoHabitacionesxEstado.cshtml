@@ -1,0 +1,88 @@
+﻿@model IEnumerable<waProyectoEF.Models.Habitacion>
+
+@{
+    ViewBag.Title = "listadoHabitacionesxEstado";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+}
+
+<br />
+<div class="container-fluid px-4">
+    <div class="row mb-4">
+        <div class="col-md-3">
+            @using (Html.BeginForm())
+            {
+                <div class="input-group">
+                    @Html.DropDownList("est", (SelectList)ViewBag.estados, new { @class = "form-select" })
+                    <button class="btn btn-primary" type="submit">BUSCAR</button>
+                </div>
+            }
+        </div>
+        <div class="col-md-3">
+            <a href="@Url.Action("listadoHabitaciones", "Habitacion")" class="btn btn-secondary">
+                Volver
+            </a>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Tablas</h1>
+        <div class="card mb-4">
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Filtrar Habitaciones por Estado
+            </div>
+            <div class="card-body">
+                <table id="datatablesSimple">
+
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ide_hab)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.num_hab)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.nom_tha)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.cap_hab)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.pre_hab)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.nom_est)
+                        </th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ide_hab)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.num_hab)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.nom_tha)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.cap_hab)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.pre_hab)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.nom_est)
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</main>

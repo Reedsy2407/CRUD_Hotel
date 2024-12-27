@@ -1,0 +1,91 @@
+﻿@model waProyectoEF.Models.HabitacionO
+
+@{
+    ViewBag.Title = "actualizaHabitacion";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+}
+
+<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Actualizar Habitación</h3></div>
+                    <div class="card-body">
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+
+                        <div class="row mb-3">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.EditorFor(model => model.ide_hab, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                    @Html.ValidationMessageFor(model => model.ide_hab, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Código de Habitación</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.EditorFor(model => model.num_hab, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.num_hab, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Número de Habitación</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.DropDownListFor(model => model.ide_tha,(SelectList)ViewBag.tipos, new { @class = "form-select" } )
+                                    @Html.ValidationMessageFor(model => model.ide_tha, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Código</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.EditorFor(model => model.cap_hab, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.cap_hab, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Código</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.EditorFor(model => model.pre_hab, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.pre_hab, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Código</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    @Html.DropDownListFor(model => model.ide_est, (SelectList)ViewBag.estados,new { @class = "form-select" } )
+                                    @Html.ValidationMessageFor(model => model.ide_est, "", new { @class = "text-danger" })
+                                    <label for="inputFirstName">Código</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                                <div class="form-group">
+                                    <div class="mt-4 mb-0">
+                                        <div class="d-grid">
+                                            <input type="submit" value="Modificar" class="btn btn-primary btn-block" />
+                                        </div>
+                                    </div>
+                                </div>
+                                }
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</main>

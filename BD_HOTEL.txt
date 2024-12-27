@@ -1,0 +1,104 @@
+USE MASTER 
+GO
+
+IF DB_ID('BD_HOTEL') IS NOT NULL	
+	DROP DATABASE BD_HOTEL
+GO
+
+CREATE DATABASE BD_HOTEL
+GO
+
+USE BD_HOTEL
+GO
+
+SET DATEFORMAT DMY
+GO
+
+-- Crear tabla EstadoHabitaciones
+CREATE TABLE Estado(
+    IDE_EST INT PRIMARY KEY IDENTITY(1,1),
+    NOM_EST VARCHAR(50)
+);
+
+-- Insertar valores de ejemplo en EstadoHabitaciones
+INSERT INTO Estado(NOM_EST)
+VALUES 
+    ('Disponible'),
+    ('Ocupada'),
+    ('Mantenimiento');
+
+-- Crear tabla MetodosPago
+CREATE TABLE MetodoPago (
+    IDE_MET INT PRIMARY KEY IDENTITY(1,1),
+    NOM_MET VARCHAR(50)
+);
+
+-- Insertar valores de ejemplo en MetodosPago
+INSERT INTO MetodoPago (NOM_MET)
+VALUES 
+    ('Tarjeta de crédito'),
+    ('Efectivo'),
+    ('Transferencia bancaria');
+
+--Crear tabla para tipos de habitación
+CREATE TABLE TipoHabitacion(
+	IDE_THA INT PRIMARY KEY IDENTITY(1,1),
+	NOM_THA VARCHAR(50)
+)
+
+-- Insertar valores de ejemplo en TipoHabitacion
+INSERT INTO TipoHabitacion(NOM_THA)
+VALUES 
+    ('Superior'),
+    ('Deluxe'),
+    ('Junior');
+
+-- Crear tabla Habitaciones
+CREATE TABLE Habitaciones (
+    IDE_HAB INT PRIMARY KEY IDENTITY(1,1),
+    NUM_HAB VARCHAR(50),
+    IDE_THA INT NOT NULL REFERENCES TipoHabitacion,
+	CAP_HAB INT,
+	PRE_HAB SMALLMONEY,
+    IDE_EST INT NOT NULL REFERENCES Estado
+);
+
+
+-- Crear tabla Clientes
+CREATE TABLE Clientes (
+    IDE_CLI INT PRIMARY KEY IDENTITY(1,1),
+    NOM_CLI VARCHAR(50),
+    APE_CLI VARCHAR(50),
+    EMAIL VARCHAR(100),
+	IDE_MET INT NOT NULL REFERENCES MetodoPago,
+    DNI_CLI VARCHAR(20)
+);
+
+-- Crear tabla Alquileres
+CREATE TABLE Alquileres
+(
+    IDE_ALQ INT PRIMARY KEY IDENTITY(1,1),
+    IDE_CLI INT NOT NULL REFERENCES CLIENTES,
+    IDE_HAB INT NOT NULL REFERENCES HABITACIONES,
+    FEN_ALQ DATE,
+    FSA_ALQ DATE
+);
+
+
+--Verificar el valor de identidad de las tablas
+DBCC CHECKIDENT ('Clientes', NORESEED);
+DBCC CHECKIDENT ('Habitaciones', NORESEED);
+DBCC CHECKIDENT ('Alquileres', NORESEED);
+
+-- Restablecer el valor de identidad a 0
+DBCC CHECKIDENT ('Clientes', RESEED, 0);
+DBCC CHECKIDENT ('Habitaciones', RESEED, 0);
+DBCC CHECKIDENT ('Alquileres', RESEED, 0);
+
+select * from Clientes
+select * from MetodoPago
+select * from Habitaciones
+select * from TipoHabitacion
+select * from Estado
+select * from Habitaciones
+select *from Alquileres
